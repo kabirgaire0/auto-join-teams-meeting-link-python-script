@@ -21,7 +21,8 @@ driver = webdriver.Chrome(service=service, options=options)
 
 try:
     # Navigate to the URL
-    driver.get('https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTk3NmMyZDktOGIzOS00MTVjLTllYTctMGM5ZTQ2YmI3YjEx%40thread.v2/0?context=%7b%22Tid%22%3a%225087d92e-75bc-48ff-b1f1-f7d76c855eab%22%2c%22Oid%22%3a%224aa3c958-2553-4507-acbd-e7b4499f15df%22%7d')
+    # enter-the-rest-of-the-url-here
+    driver.get('https://teams.microsoft.com/l/meetup-join/-enter-the-rest-of-the-url-here')
 
     # Wait for the button to be clickable
     wait = WebDriverWait(driver, 30)
